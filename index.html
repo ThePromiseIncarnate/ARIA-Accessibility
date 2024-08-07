@@ -8,7 +8,34 @@
 </head>
 
 <body>
-    
+    <h1>Narrator</h1>
+    <h2>What is ARIA?</h2>
+    <p>
+        Accessible Rich Internet Applications(ARIA) is a set of roles and attributes that define ways to make web
+        contentand web applications(especially those developed with JavaScript) more accessible to people with
+        disabilities.
+    </p>
+
+    <h2>Navigation</h2>
+    <!-- Roles define a type of user interface element. -->
+    <nav role="navigation">
+        <a src="index.html">Home</a>
+    </nav>
+
+    <h2>Inputs</h2>
+    <p>Username:</p>
+    <!-- The aria-label attribute defines a string value that labels an interactive element. -->
+    <input aria-label="Username">
+    <div>
+        <label>
+            Password
+            <input>
+        </label>
+    </div>
+
+    <h2>Buttons</h2>
+    <button aria-label="button">I'm a Button</button>
+    <a href="index.html" role="button">I am also a button</a>
 </body>
 
 </html>
